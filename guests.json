@@ -1,0 +1,506 @@
+[
+    {
+        "table": "Table 1",
+        "guests": [
+            "Tiya Doshi",
+            "Arya Doshi",
+            "Akash Gogate",
+            "Arjun Jadhav",
+            "Janvi Jadhav",
+            "Tanisha Kinikar",
+            "Arya Kinikar",
+            "Medha Nagaraj",
+            "Anisha Nagaraj",
+            "Arav Pyati"
+        ]
+    },
+    {
+        "table": "Table 2",
+        "guests": [
+            "Aditya Balaram",
+            "Karthika Hari",
+            "Madhav Manesh",
+            "Rachel Melavila",
+            "Philip Melavila",
+            "Ajai Pillai",
+            "Arjun Veettil",
+            "Isha Veettil"
+        ]
+    },
+    {
+        "table": "Table 3",
+        "guests": [
+            "Alma Alex",
+            "Alvin Alex",
+            "Esther Arun",
+            "Reisha Gopkumar",
+            "Snigdha Gopkumar",
+            "Geethika Manojkumar",
+            "Nanditha Pradeep",
+            "Aditya Pradeep",
+            "Alaka Rajesh"
+        ]
+    },
+    {
+        "table": "Table 4",
+        "guests": [
+            "Anil Akula",
+            "Savita Akula",
+            "Suneeta Bilawar",
+            "Lalitesh Bilawar",
+            "Rashmi Handa",
+            "Ashwani Handa",
+            "Srinivas Munuri",
+            "Narotham Reddy",
+            "Surekha Reddy"
+        ]
+    },
+    {
+        "table": "Table 5",
+        "guests": [
+            "Jaimeen Doshi",
+            "Sapana Jadhav",
+            "Dattatray Jadhav",
+            "Swati Kinikar",
+            "Niren Kinikar",
+            "Vani Nagaraj",
+            "Nandeesh Nagaraj",
+            "Arpita Shah",
+            "Shobhna Shah",
+            "Archana Sundaram"
+        ]
+    },
+    {
+        "table": "Table 6",
+        "guests": [
+            "Monalisa Dhobley",
+            "Jagdish Dhobley",
+            "Tapasya Dhobley",
+            "Vedanta Dhobley",
+            "Rakhee Gogate",
+            "Nandan Gogate",
+            "Neha Gogate",
+            "Meenal Pyati",
+            "Guru Pyati",
+            "Sia Pyati"
+        ]
+    },
+    {
+        "table": "Table 7",
+        "guests": [
+            "Dhanya Prem",
+            "Arjun Prem",
+            "Ashwin Prem",
+            "Aparna Ravidas",
+            "Gopkumar Sarangdharan",
+            "Prem Sasidharan",
+            "Rohini Sasidharan",
+            "Nakshatra Vinod",
+            "Nabhanya Vinod",
+            "Vasav Vinod"
+        ]
+    },
+    {
+        "table": "Table 8",
+        "guests": [
+            "Shiny Arun",
+            "Arun Arunalayam",
+            "Asha George",
+            "Dhannya Gopkumar",
+            "Abitha Jose",
+            "Jose Ouseph",
+            "Rekha Pradeep",
+            "Abhilash Puthenveetil",
+            "Ambili Sasidharan",
+            "Pradeep Venkitachalam"
+        ]
+    },
+    {
+        "table": "Table 9",
+        "guests": [
+            "Bincy Alex",
+            "Alex Chandy",
+            "Rajesh Kotoli",
+            "Pradeep Kumar",
+            "Divya Mani",
+            "Govind Mohan Mani",
+            "Roshni Manojkumar",
+            "Manojkumar Nambyathu",
+            "Preetha Pradeep",
+            "Ajitha Rajesh"
+        ]
+    },
+    {
+        "table": "Table 10",
+        "guests": [
+            "Nisha Ajayan",
+            "Deepu Balaram",
+            "Anjana Jithesh",
+            "Susan Joseph",
+            "Jithesh Nambiar",
+            "Vinay Puthenveetil",
+            "Benoy Rawther",
+            "Deepa Suresh",
+            "Ajayan Venugopalan",
+            "Meera Vinay"
+        ]
+    },
+    {
+        "table": "Table 11",
+        "guests": [
+            "Leena Manesh",
+            "David Melavila",
+            "Renu Nair",
+            "Rajeev Nair",
+            "Manesh Murali Nair",
+            "Rajeev Pillai",
+            "Anita Pillai",
+            "Darshana Prakash",
+            "Patrick P Pulikal",
+            "Susan John Varghese"
+        ]
+    },
+    {
+        "table": "Table 12",
+        "guests": [
+            "Aditya Bilawar",
+            "Anushka Bilawar",
+            "Tanush Gopkumar",
+            "Akshat Gupta",
+            "Mayank Handa",
+            "Nitant Handa",
+            "Kavya Mukkamala",
+            "Ayush Sankaran",
+            "Rehan Shah",
+            "Nikhil Shyam"
+        ]
+    },
+    {
+        "table": "Table 13",
+        "guests": [
+            "Anita Alex",
+            "Joel Arun",
+            "Angel Jose",
+            "Thomas Jose",
+            "Ankit Mani",
+            "Achyut Mani",
+            "Navneet Manojkumar",
+            "Meenakshi Pradeep",
+            "Anupam Pradeep",
+            "Anjali Rajesh"
+        ]
+    },
+    {
+        "table": "Table 14",
+        "guests": [
+            "Nakul Ajayan",
+            "Nila Ajayan",
+            "Uttarra Jithesh",
+            "Jayden Mathew",
+            "Joseph Mathew",
+            "Arnav Nair",
+            "Rhea Nair",
+            "Virat Nambiar",
+            "Arjun Nettikadan",
+            "Krishna Pillai"
+        ]
+    },
+    {
+        "table": "Table 15",
+        "guests": [
+            "Veda Mahesh",
+            "Jianna Mathew",
+            "Maya Mathew",
+            "Avani Nair",
+            "Vani Nambiar",
+            "Niya Nambiar",
+            "Maya Nettikadan",
+            "Krupa Pillai",
+            "Anjana Pillai",
+            "Nikhil Surya"
+        ]
+    },
+    {
+        "table": "Table 16",
+        "guests": [
+            "Khurshid Basheer",
+            "Meera Bhaskar",
+            "Mahesh Bhaskar",
+            "Sangram Mally",
+            "Elizabeth Mathew",
+            "Sheena Mujafideen",
+            "Anup Mathews Raju",
+            "Rubina Sudharman",
+            "Preetha Veettil",
+            "Sunil Veettil"
+        ]
+    },
+    {
+        "table": "Table 17",
+        "guests": [
+            "Sreevidya Chembra",
+            "Jayan M Joseph",
+            "Vijesh Karatt",
+            "Jeena Ann Mathew",
+            "Deepti Nair",
+            "Satyan Nair",
+            "Vijay Nambiar",
+            "Tom Nettikadan",
+            "Sangeetha Sebastian",
+            "Ampily Vijay"
+        ]
+    },
+    {
+        "table": "Table 18",
+        "guests": [
+            "Charitha Aineri",
+            "Sunil Bhagwat",
+            "Yoginee Bhagwat",
+            "Sachi Bhagwat",
+            "Saanvi Bhagwat",
+            "Sangeeta Bhuyan",
+            "Poonam Chaudhari",
+            "Ashwin Chaudhari",
+            "Natasha Chaudhari",
+            "Ashlesh Chaudhari"
+        ]
+    },
+    {
+        "table": "Table 19",
+        "guests": [
+            "Uma Abhyankar",
+            "Rajesh Abhyankar",
+            "Anushree Bhatkhande",
+            "Vaishali Edekar",
+            "Sachin Edekar",
+            "Kshitija Joshi",
+            "Nilesh Joshi",
+            "Sulbha Joshi",
+            "Archana Nadkarni",
+            "Neeraj Nadkarni"
+        ]
+    },
+    {
+        "table": "Table 20",
+        "guests": [
+            "Sidd Devineni",
+            "Prady Mahadani",
+            "Shruti Mahadani",
+            "Balaji Manikantan",
+            "Bidisha Manikantan",
+            "Neha Phadke",
+            "Nilesh Phadke",
+            "Dhannya Sudeep",
+            "Sudeep Sudeep",
+            "Chetan Wagle",
+            "Anuja Wagle"
+        ]
+    },
+    {
+        "table": "Table 21",
+        "guests": [
+            "Happy Barot",
+            "Peter Geertsama",
+            "Kevin Joseph",
+            "Eesha Mukkamala",
+            "Pranami Patel",
+            "Ritika Patel",
+            "Saahil Patel",
+            "Dhara Patel",
+            "Vishika Patel",
+            "Marisa Schwab"
+        ]
+    },
+    {
+        "table": "Table 22",
+        "guests": [
+            "Baldween Casseus",
+            "Kavyasree Chigurupati",
+            "Angelina Cordial",
+            "Dacontee Davis",
+            "Gabriel Garcia",
+            "William Hoover",
+            "Kathryn Lee",
+            "Dania McBain",
+            "Ayan Memon",
+            "Jay Schroepfer"
+        ]
+    },
+    {
+        "table": "Table 23",
+        "guests": [
+            "Victoria Condos",
+            "Kimaya Davis",
+            "Anjali Goradia",
+            "Beaman Negash",
+            "Samiksha Raman",
+            "Kendall Riskevich",
+            "Bharath Sreenivas",
+            "Caitlin Stoddard",
+            "Suprajah Suresh",
+            "Anoushka Thakre"
+        ]
+    },
+    {
+        "table": "Table 24",
+        "guests": [
+            "Jonah Demel",
+            "Mitchell Domangue",
+            "Jared Gee",
+            "Kristian Johnson",
+            "Aditya Palekar",
+            "Divya Sasidhar",
+            "Matthew Shapiro",
+            "Garrett Smith",
+            "Rachel Thompson",
+            "Louise Wang"
+        ]
+    },
+    {
+        "table": "Table 25",
+        "guests": [
+            "Ankita Bhatkhande",
+            "Kunal Edekar",
+            "Akhil Edekar",
+            "Varun Gaitonde",
+            "Aditi Ganesan",
+            "Deepen Goradia",
+            "Eshani Goradia",
+            "Neha Saju",
+            "Arunkeshav Sridhar",
+            "Connor Vogel"
+        ]
+    },
+    {
+        "table": "Table 26",
+        "guests": [
+            "Advik",
+            "Anant",
+            "Esha",
+            "Tess Kelkar",
+            "Tyler Kelkar",
+            "Aryaman Kulkarni",
+            "Ananya Kulkarni",
+            "Jay Nadkarni",
+            "Nihal",
+            "Sreeja Yellapragada"
+        ]
+    },
+    {
+        "table": "Table 27",
+        "guests": [
+            "Milind Chitale",
+            "Sadhana Chitale",
+            "Rajendra Damle",
+            "Aarti Damle",
+            "Nishad Damle",
+            "Omkar Damle",
+            "Nidhi & Arjun Damle",
+            "Anand Kelkar",
+            "Ashwini Kelkar"
+        ]
+    },
+    {
+        "table": "Table 28",
+        "guests": [
+            "Meenal Abhyankar",
+            "Hemant Abhyankar",
+            "Sushama Bhide",
+            "Anil Kale",
+            "Rupali Kale",
+            "Saumit Kale",
+            "Pradeep Kale",
+            "Sameer Kulkarni",
+            "Madhuri Sane",
+            "Sanjeev Sane"
+        ]
+    },
+    {
+        "table": "Table 29",
+        "guests": [
+            "Poorva Abhyankar",
+            "Kirti Apte",
+            "Ajay Apte",
+            "Shrikant Gogate",
+            "Sunita Gogate",
+            "Sujata Joshi",
+            "Amey Kulkarni",
+            "Jayraj Ranade",
+            "Tejas Sane",
+            "Pratima Shetty & Shlok Sane"
+        ]
+    },
+    {
+        "table": "Table 30",
+        "guests": [
+            "Sanjay Chabria",
+            "Renu Chabria",
+            "Vandana Chakke",
+            "Rahul Chakke",
+            "Vivek Dhaigude",
+            "Leena Dhaigude",
+            "Sameer Hajarnis",
+            "Ketki Hajarnis",
+            "Deepesh Vellore",
+            "Chitra Vellore"
+        ]
+    },
+    {
+        "table": "Table 31",
+        "guests": [
+            "Pali Ahuja",
+            "Aman Ahuja",
+            "Sweta Goradia",
+            "Narendra Goradia",
+            "Sangeeta Patel",
+            "Dhiman Patel",
+            "Sandeep Singh",
+            "Prachi Singh",
+            "Ram Walawalkar",
+            "Seema Walawalkar"
+        ]
+    },
+    {
+        "table": "Table 32",
+        "guests": [
+            "Mom Chekuri",
+            "Surya Chekuri",
+            "Ashrith Chekuri",
+            "Meetu Dabral",
+            "Vipul Joshi",
+            "Rahul Joshi",
+            "Sujaya Majumdar",
+            "Souvik Majumdar",
+            "Anushka Majumdar"
+        ]
+    },
+    {
+        "table": "Table 33",
+        "guests": [
+            "Josh Druger",
+            "Mehul Joshi",
+            "Vrat Joshi",
+            "Malavika Kashyap",
+            "Sarah Madhani",
+            "Anurag Majumdar",
+            "Neha Sridhar",
+            "Irene Su",
+            "Mihir Subhedar",
+            "Jay Virani"
+        ]
+    },
+    {
+        "table": "Table 34",
+        "guests": [
+            "Ashin Alex",
+            "Krishna Bhutada",
+            "Leo John",
+            "Darren Maraj",
+            "Upasna Mistry",
+            "Nehal Patel",
+            "Nish Patel",
+            "Arushi Singh",
+            "Nikita Thapar"
+        ]
+    }
+]
