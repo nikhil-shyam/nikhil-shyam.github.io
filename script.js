@@ -4,6 +4,7 @@ fetch("guests.json")
   .then(response => response.json())
   .then(data => {
     tables = data;
+    displayAllTables();
   })
   .catch(error => {
     console.error("Error loading guest list:", error);
@@ -18,6 +19,7 @@ searchInput.addEventListener("input", () => {
   resultDiv.innerHTML = "";
 
   if (query === "") {
+    displayAllTables();
     return;
   }
 
@@ -45,10 +47,29 @@ searchInput.addEventListener("input", () => {
 
   matches.forEach(person => {
     resultDiv.innerHTML += `
-      <div class="result-card">
-        <div class="name">${person.name}</div>
-        <div class="table">${person.table}</div>
+      <div class="lookup-card">
+        <div class="lookup-name">${person.name}</div>
+        <div class="lookup-table">${person.table}</div>
       </div>
     `;
   });
 });
+
+function displayAllTables() {
+  resultDiv.innerHTML = "";
+
+  tables.forEach(tableObj => {
+    const guestList = tableObj.guests
+      .map(guest => `<div>${guest}</div>`)
+      .join("");
+
+    resultDiv.innerHTML += `
+      <div class="table-card">
+        <div class="table-card-header">${tableObj.table}</div>
+        <div class="table-card-body">
+          ${guestList}
+        </div>
+      </div>
+    `;
+  });
+}
