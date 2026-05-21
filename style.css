@@ -15,7 +15,7 @@ body {
 .container {
   width: 90%;
   max-width: 620px;
-  margin: 40px auto;
+  margin: 0px auto;
   padding: 45px 28px;
   text-align: center;
 }
@@ -29,6 +29,7 @@ h1, h2 {
 
 h1 {
   font-size: 30px;
+  margin-top: 0px;
   margin-bottom: 12px;
 }
 
