@@ -7,12 +7,6 @@ body {
 
   background-color: #fbfaf8;
 
-  background-image: url("background.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -36,7 +30,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 25;
   margin-top: 0px;
   margin-bottom: 12px;
 }
@@ -55,7 +49,7 @@ h2 {
   flex-direction: column;
   gap: 0px;
 
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7;
   color: #3f3835;
 
@@ -342,4 +336,52 @@ h2 {
   color: #ff8e88;
   font-weight: bold;
   font-size: 15px;
+}
+
+.header-image {
+  width: 350px;
+  height: auto;
+
+  display: block;
+
+  margin: 0 auto 10px;
+}
+
+.corner {
+  position: fixed;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+  width: 240px;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  width: 220px;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  width: 240px;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  width: 240px;
+}
+
+@media (max-width: 700px) {
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+    width: 140px;
+  }
 }
