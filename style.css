@@ -5,7 +5,7 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   color: #2f2a28;
 
-  background-color: #fbfaf8;
+  background-color: white;
 
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ h1, h2 {
 
 h1 {
   font-size: 25;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 12px;
 }
 
@@ -49,7 +49,7 @@ h2 {
   flex-direction: column;
   gap: 0px;
 
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.7;
   color: #3f3835;
 
@@ -238,6 +238,13 @@ h2 {
   .table-card-body {
     font-size: 18px;
   }
+
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+    width: 140px;
+  }
 }
 
 #floor-map {
@@ -375,13 +382,4 @@ h2 {
   bottom: 0;
   right: 0;
   width: 240px;
-}
-
-@media (max-width: 700px) {
-  .top-left,
-  .top-right,
-  .bottom-left,
-  .bottom-right {
-    width: 140px;
-  }
 }
