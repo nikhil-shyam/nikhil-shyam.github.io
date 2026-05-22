@@ -39,23 +39,18 @@ searchInput.addEventListener("input", () => {
     return;
   }
 
-  if (/^\d+$/.test(query)) {
-    const tableMatch = tables.find(tableObj => {
-      const tableNumber = getTableNumber(tableObj.table);
-      return tableNumber === query;
-    });
+  const normalizedQuery = query
+    .replace(/^table\s*/i, "")
+    .trim();
 
-    if (tableMatch) {
-      displaySingleTable(tableMatch);
-      highlightTable(tableMatch.table);
-    } else {
-      resultDiv.innerHTML = `
-        <div class="no-results">
-          No table found.
-        </div>
-      `;
-    }
+  const tableMatch = tables.find(tableObj => {
+    const tableId = getTableId(tableObj.table).toLowerCase();
+    return tableId === normalizedQuery.toLowerCase();
+  });
 
+  if (tableMatch) {
+    displaySingleTable(tableMatch);
+    highlightTable(tableMatch.table);
     return;
   }
 
@@ -129,13 +124,13 @@ function displaySingleTable(tableObj) {
   `;
 }
 
-function getTableNumber(tableName) {
-  return tableName.replace(/\D/g, "");
+function getTableId(tableName) {
+  return tableName.replace(/^Table\s*/i, "").trim();
 }
 
 function highlightTable(tableName) {
-  const tableNumber = getTableNumber(tableName);
-  const tableCircle = document.getElementById(`table-${tableNumber}`);
+  const tableId = getTableId(tableName);
+  const tableCircle = document.getElementById(`table-${tableId}`);
 
   if (tableCircle) {
     tableCircle.classList.add("highlighted-table");
