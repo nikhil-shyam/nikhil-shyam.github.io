@@ -346,12 +346,17 @@ h2 {
 }
 
 .header-image {
-  width: 350px;
-  height: auto;
+  width: calc(100% + 56px);
+  margin-left: -28px;
+
+  height: 180px;
+
+  object-fit: cover;
+  object-position: 50% 62%;
 
   display: block;
 
-  margin: 0 auto 10px;
+  margin-bottom: 20px;
 }
 
 .corner {
