@@ -28,7 +28,20 @@ with open(input_file, "r", encoding="utf-8-sig", newline="") as f:
 
 result = []
 
-for table in sorted(tables.keys(), key=lambda x: (not x.isdigit(), int(x) if x.isdigit() else x)):
+special_order = {
+    "R": 31,
+    "U": 32,
+    "D": 33,
+    "O": 34
+}
+
+def table_sort_key(table):
+    if table.isdigit():
+        return int(table)
+
+    return special_order.get(table, 999)
+
+for table in sorted(tables.keys(), key=table_sort_key):
     guests = sorted(
         tables[table],
         key=lambda name: (name.split()[-1].lower(), name.split()[0].lower())
