@@ -316,9 +316,9 @@
             "Niren Kinikar",
             "Swati Kinikar",
             "Nandeesh Nagaraj",
-            "Vani Nagaraj",
             "Arpita Shah",
             "Shobhna Shah",
+            "Vani Shivayogeppa",
             "Archana Sundaram"
         ]
     },
@@ -370,15 +370,15 @@
     {
         "table": "Table 26",
         "guests": [
-            "Shiny Arun",
             "Arun Arunalayam",
             "Asha George",
             "Dhannya Gopkumar",
-            "Abitha Jose",
+            "Shiny Jacob",
             "Jose Ouseph",
             "Rekha Pradeep",
             "Abhilash Puthenveetil",
             "Ambili Sasidharan",
+            "Abitha Upendran",
             "Pradeep Venkitachalam"
         ]
     },
@@ -444,6 +444,36 @@
         ]
     },
     {
+        "table": "Table D",
+        "guests": [
+            "Hemant Abhyankar",
+            "Meenal Abhyankar",
+            "Sushama Bhide",
+            "Anil Kale",
+            "Pradeep Kale",
+            "Rupali Kale",
+            "Saumit Kale",
+            "Sameer Kulkarni",
+            "Madhuri Sane",
+            "Sanjeev Sane"
+        ]
+    },
+    {
+        "table": "Table O",
+        "guests": [
+            "Rajesh Abhyankar",
+            "Uma Abhyankar",
+            "Anushree Bhatkhande",
+            "Sachin Edekar",
+            "Vaishali Edekar",
+            "Kshitija Joshi",
+            "Nilesh Joshi",
+            "Sulbha Joshi",
+            "Archana Nadkarni",
+            "Neeraj Nadkarni"
+        ]
+    },
+    {
         "table": "Table R",
         "guests": [
             "Arjun Prem",
@@ -473,36 +503,6 @@
             "Guru Pyati",
             "Meenal Pyati",
             "Sia Pyati"
-        ]
-    },
-    {
-        "table": "Table D",
-        "guests": [
-            "Hemant Abhyankar",
-            "Meenal Abhyankar",
-            "Sushama Bhide",
-            "Anil Kale",
-            "Pradeep Kale",
-            "Rupali Kale",
-            "Saumit Kale",
-            "Sameer Kulkarni",
-            "Madhuri Sane",
-            "Sanjeev Sane"
-        ]
-    },
-    {
-        "table": "Table O",
-        "guests": [
-            "Rajesh Abhyankar",
-            "Uma Abhyankar",
-            "Anushree Bhatkhande",
-            "Sachin Edekar",
-            "Vaishali Edekar",
-            "Kshitija Joshi",
-            "Nilesh Joshi",
-            "Sulbha Joshi",
-            "Archana Nadkarni",
-            "Neeraj Nadkarni"
         ]
     }
 ]
