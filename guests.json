@@ -444,6 +444,38 @@
         ]
     },
     {
+        "table": "Table R",
+        "guests": [
+            "Arjun Prem",
+            "Ashwin Prem",
+            "Dhanya Prem",
+            "Aparna Ravidas",
+            "Gopkumar Sarangdharan",
+            "Prem Sasidharan",
+            "Rohini Sasidharan",
+            "Shyam Sasidharan",
+            "Daya Shyam",
+            "Nabhanya Vinod",
+            "Nakshatra Vinod",
+            "Vasav Vinod"
+        ]
+    },
+    {
+        "table": "Table U",
+        "guests": [
+            "Jagdish Dhobley",
+            "Monalisa Dhobley",
+            "Tapasya Dhobley",
+            "Vedanta Dhobley",
+            "Nandan Gogate",
+            "Neha Gogate",
+            "Rakhee Gogate",
+            "Guru Pyati",
+            "Meenal Pyati",
+            "Sia Pyati"
+        ]
+    },
+    {
         "table": "Table D",
         "guests": [
             "Hemant Abhyankar",
@@ -471,38 +503,6 @@
             "Sulbha Joshi",
             "Archana Nadkarni",
             "Neeraj Nadkarni"
-        ]
-    },
-    {
-        "table": "Table R",
-        "guests": [
-            "Arjun Prem",
-            "Ashwin Prem",
-            "Dhanya Prem",
-            "Aparna Ravidas",
-            "Gopkumar Sarangdharan",
-            "Prem Sasidharan",
-            "Rohini Sasidharan",
-            "Nabhanya Vinod",
-            "Nakshatra Vinod",
-            "Vasav Vinod"
-        ]
-    },
-    {
-        "table": "Table U",
-        "guests": [
-            "Jagdish Dhobley",
-            "Monalisa Dhobley",
-            "Tapasya Dhobley",
-            "Vedanta Dhobley",
-            "Nandan Gogate",
-            "Neha Gogate",
-            "Rakhee Gogate",
-            "Guru Pyati",
-            "Meenal Pyati",
-            "Sia Pyati",
-            "Shyam Sasidharan",
-            "Daya Shyam"
         ]
     }
 ]
