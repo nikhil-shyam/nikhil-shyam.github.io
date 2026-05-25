@@ -90,6 +90,18 @@ searchInput.addEventListener("input", () => {
   }
 });
 
+document.querySelectorAll(".nav-button").forEach(button => {
+  button.addEventListener("click", () => {
+    const pageId = button.dataset.page;
+
+    document.querySelectorAll(".page").forEach(page => {
+      page.classList.remove("active-page");
+    });
+
+    document.getElementById(pageId).classList.add("active-page");
+  });
+});
+
 function displayAllTables() {
   resultDiv.innerHTML = "";
 

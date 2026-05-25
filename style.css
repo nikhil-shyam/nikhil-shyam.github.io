@@ -388,3 +388,61 @@ h2 {
   right: 0;
   width: 240px;
 }
+
+.page {
+  display: none;
+}
+
+.active-page {
+  display: block;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 15px 0 30px;
+}
+
+.nav-button {
+  background: #fffdf9;
+  border: 1px solid #cfc5b6;
+  padding: 10px 18px;
+  border-radius: 999px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  color: #3f3835;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  border-color: #6577ad;
+}
+
+.schedule-card {
+  width: 90%;
+  margin: 24px auto;
+  padding: 22px;
+
+  border: 1px solid #cfc5b6;
+  background: #fffdf9;
+  text-align: left;
+}
+
+.schedule-card h2 {
+  margin: 0 0 16px;
+  font-size: 17px;
+  color: #6577ad;
+  text-align: center;
+}
+
+.schedule-card p {
+  font-size: 15px;
+  line-height: 1.6;
+}
