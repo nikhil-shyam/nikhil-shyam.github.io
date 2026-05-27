@@ -446,3 +446,18 @@ h2 {
   font-size: 15px;
   line-height: 1.6;
 }
+
+.performance-list {
+  margin-top: -10px;
+  padding-left: 22px;
+
+  text-align: left;
+
+  font-size: 15px;
+  line-height: 1.8;
+  color: #3f3835;
+}
+
+.performance-list li {
+  margin-bottom: 6px;
+}
