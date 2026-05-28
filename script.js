@@ -1,4 +1,5 @@
 let tables = [];
+let routes = {};
 
 const searchInput = document.getElementById("search");
 const resultDiv = document.getElementById("result");
@@ -28,11 +29,18 @@ fetch("guests.json")
     console.error("Error loading guest list:", error);
   });
 
+fetch("routes.json")
+  .then(response => response.json())
+  .then(data => {
+    routes = data;
+  });
+
 searchInput.addEventListener("input", () => {
   const query = searchInput.value.toLowerCase().trim();
 
   resultDiv.innerHTML = "";
   clearHighlightedTable();
+  clearRouteLine();
 
   if (query === "") {
     displayAllTables();
@@ -51,6 +59,7 @@ searchInput.addEventListener("input", () => {
   if (tableMatch) {
     displaySingleTable(tableMatch);
     highlightTable(tableMatch.table);
+    drawRouteToTable(tableMatch.table);
     return;
   }
 
@@ -87,6 +96,7 @@ searchInput.addEventListener("input", () => {
 
   if (matches.length === 1) {
     highlightTable(matches[0].table);
+    drawRouteToTable(matches[0].table);
   }
 });
 
@@ -153,4 +163,32 @@ function clearHighlightedTable() {
   document.querySelectorAll(".highlighted-table").forEach(table => {
     table.classList.remove("highlighted-table");
   });
+}
+
+function clearRouteLine() {
+  const routeLine = document.getElementById("route-line");
+
+  if (routeLine) {
+    routeLine.setAttribute("points", "");
+  }
+}
+
+function drawRouteToTable(tableName) {
+  const routeLine = document.getElementById("route-line");
+  if (!routeLine) return;
+
+  const tableId = getTableId(tableName);
+  const side = entrance === "right" ? "right" : "left";
+
+  const route = routes[tableId]?.[side];
+
+  if (!route) {
+    routeLine.setAttribute("points", "");
+    return;
+  }
+
+  routeLine.setAttribute(
+    "points",
+    route.map(point => point.join(",")).join(" ")
+  );
 }

@@ -281,7 +281,16 @@ h2 {
 }
 
 .map-label {
-  font-size: 10px;
+  font-size: 30px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+
+  fill: #2f2a28;
+  font-family: Georgia, serif;
+}
+
+.table-label {
+  font-size: 25px;
   text-anchor: middle;
   dominant-baseline: middle;
 
@@ -299,7 +308,7 @@ h2 {
 }
 
 .door-label {
-  font-size: 7px;
+  font-size: 22px;
   text-anchor: middle;
   dominant-baseline: middle;
 
@@ -314,7 +323,7 @@ h2 {
 }
 
 .table-group text {
-  font-size: 7px;
+  font-size: 28px;
   text-anchor: middle;
   dominant-baseline: middle;
 
@@ -324,7 +333,7 @@ h2 {
 
 .highlighted-table {
   stroke: #6577ad !important;
-  stroke-width: 1.5 !important;
+  stroke-width: 4.5 !important;
 }
 
 .active-door {
@@ -460,4 +469,14 @@ h2 {
 
 .performance-list li {
   margin-bottom: 6px;
+}
+
+.route-line {
+  fill: none;
+  stroke: #6577ad;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 14 10;
+  pointer-events: none;
 }

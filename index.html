@@ -46,83 +46,94 @@
         autocomplete="off"
       />
 
-      <svg id="floor-map" viewBox="28 0 364 185" xmlns="http://www.w3.org/2000/svg">
-        <rect x="28" y="0" width="364" height="185" fill="#fbfaf8"/>
+      <svg id="floor-map" viewBox="110 0 1230 645" xmlns="http://www.w3.org/2000/svg">
+        <rect x="110" y="0" width="1230" height="645" fill="#fbfaf8"/>
+
+        <polyline id="route-line" points="" class="route-line" />
+
+        <!-- Gift Table -->
+        <rect x="437.5" y="10" width="100" height="100" class="dj-booth" />
+        <text x="487.5" y="44" class="table-label">Gift</text>
+        <text x="487.5" y="80" class="table-label">Table</text>
 
         <!-- Stage -->
-        <rect x="140" y="0" width="140" height="40" rx="2" class="stage" />
-        <text x="210" y="22" class="map-label">Stage</text>
+        <rect x="550" y="10" width="350" height="100" class="stage" />
+        <text x="725" y="65" class="map-label">Stage</text>
+
+        <!-- Cake Table -->
+        <rect x="912.5" y="10" width="100" height="100" class="dj-booth" />
+        <text x="962.5" y="44" class="table-label">Cake</text>
+        <text x="962.5" y="80" class="table-label">Table</text>
 
         <!-- Dance Floor -->
-        <rect x="160" y="40" width="100" height="100" class="dance-floor" />
-        <text x="210" y="93" class="map-label">Dance Floor</text>
+        <rect x="550" y="143" width="350" height="300" class="dance-floor" />
+        <text x="725" y="298" class="map-label">Dance Floor</text>
 
         <!-- DJ Booth -->
-        <rect x="190" y="150" width="40" height="20" class="dj-booth" />
-        <text x="210" y="162" class="small-label">DJ Booth</text>
+        <rect x="650" y="493" width="150" height="50" class="dj-booth" />
+        <text x="725" y="521" class="map-label">DJ Booth</text>
 
         <!-- Doors -->
-        <rect id="left-door" x="28" y="175" width="20" height="10" class="door" />
-        <text x="38" y="181" class="door-label">Door</text>
+        <rect id="left-door" x="482.25" y="615" width="100" height="30" class="door" />
+        <text x="532.25" y="633" class="door-label">Door</text>
 
-        <rect id="right-door" x="288.5" y="175" width="20" height="10" class="door" />
-        <text x="298.5" y="181" class="door-label">Door</text>
+        <rect id="right-door" x="1162.5" y="615" width="100" height="30" class="door" />
+        <text x="1212.5" y="633" class="door-label">Door</text>
 
-        <!-- Top row: bottom aligned with stage -->
-        <!-- LEFT SIDE TABLES -->
+        <!-- LEFT TABLES -->
         <g class="table-group">
-          <!-- Column 1: 5 tables -->
-          <circle id="table-10" cx="71.5" cy="48.5" r="8.5"/><text x="71.5" y="48.5">10</text>
-          <circle id="table-8" cx="71.5" cy="69.25" r="8.5"/><text x="71.5" y="69.25">8</text>
-          <circle id="table-6" cx="71.5" cy="90" r="8.5"/><text x="71.5" y="90">6</text>
-          <circle id="table-4" cx="71.5" cy="110.75" r="8.5"/><text x="71.5" y="110.75">4</text>
-          <circle id="table-2" cx="71.5" cy="131.5" r="8.5"/><text x="71.5" y="131.5">2</text>
+          <!-- Leftmost column: 5 tables -->
+          <circle id="table-10" cx="187.5" cy="83" r="27"/><text x="187.5" y="83">10</text>
+          <circle id="table-8" cx="187.5" cy="194" r="27"/><text x="187.5" y="194">8</text>
+          <circle id="table-6" cx="187.5" cy="305" r="27"/><text x="187.5" y="305">6</text>
+          <circle id="table-4" cx="187.5" cy="416" r="27"/><text x="187.5" y="416">4</text>
+          <circle id="table-2" cx="187.5" cy="527" r="27"/><text x="187.5" y="527">2</text>
 
-          <!-- Column 2: 5 tables -->
-          <circle id="table-12" cx="91.5" cy="48.5" r="8.5"/><text x="91.5" y="48.5">12</text>
-          <circle id="table-14" cx="91.5" cy="69.25" r="8.5"/><text x="91.5" y="69.25">14</text>
-          <circle id="table-16" cx="91.5" cy="90" r="8.5"/><text x="91.5" y="90">16</text>
-          <circle id="table-18" cx="91.5" cy="110.75" r="8.5"/><text x="91.5" y="110.75">18</text>
-          <circle id="table-20" cx="91.5" cy="131.5" r="8.5"/><text x="91.5" y="131.5">20</text>
+          <!-- Third column: 5 tables -->
+          <circle id="table-12" cx="287.5" cy="83" r="27"/><text x="287.5" y="83">12</text>
+          <circle id="table-14" cx="287.5" cy="194" r="27"/><text x="287.5" y="194">14</text>
+          <circle id="table-16" cx="287.5" cy="305" r="27"/><text x="287.5" y="305">16</text>
+          <circle id="table-18" cx="287.5" cy="416" r="27"/><text x="287.5" y="416">18</text>
+          <circle id="table-20" cx="287.5" cy="527" r="27"/><text x="287.5" y="527">20</text>
 
-          <!-- Column 3: 4 tables, offset between 5-table rows -->
-          <circle id="table-28" cx="111.5" cy="58.875" r="8.5"/><text x="111.5" y="58.875">28</text>
-          <circle id="table-26" cx="111.5" cy="79.625" r="8.5"/><text x="111.5" y="79.625">26</text>
-          <circle id="table-24" cx="111.5" cy="100.375" r="8.5"/><text x="111.5" y="100.375">24</text>
-          <circle id="table-22" cx="111.5" cy="121.125" r="8.5"/><text x="111.5" y="121.125">22</text>
+          <!-- Second column: 4 tables -->
+          <circle id="table-28" cx="387.5" cy="83" r="27"/><text x="387.5" y="83">28</text>
+          <circle id="table-26" cx="387.5" cy="194" r="27"/><text x="387.5" y="194">26</text>
+          <circle id="table-24" cx="387.5" cy="305" r="27"/><text x="387.5" y="305">24</text>
+          <circle id="table-22" cx="387.5" cy="416" r="27"/><text x="387.5" y="416">22</text>
 
-          <!-- Column 4: 3 tables, right edge aligned with stage left edge -->
-          <circle id="table-30" cx="131.5" cy="69.25" r="8.5"/><text x="131.5" y="69.25">30</text>
-          <circle id="table-R" cx="131.5" cy="90" r="8.5"/><text x="131.5" y="91">R</text>
-          <circle id="table-U" cx="131.5" cy="110.75" r="8.5"/><text x="131.5" y="111.75">U</text>
+          <!-- Closest column: 3 tables -->
+          <circle id="table-30" cx="487.5" cy="194" r="27"/><text x="487.5" y="194">30</text>
+          <circle id="table-R" cx="487.5" cy="305" r="27"/><text x="487.5" y="305">R</text>
+          <circle id="table-U" cx="487.5" cy="416" r="27"/><text x="487.5" y="416">U</text>
         </g>
 
-        <!-- RIGHT SIDE TABLES, MIRRORED -->
+        <!-- RIGHT TABLES, MIRRORED -->
         <g class="table-group">
-          <!-- Column 1 near stage: 3 tables, left edge aligned with stage right edge -->
-          <circle id="table-29" cx="288.5" cy="69.25" r="8.5"/><text x="288.5" y="69.25">29</text>
-          <circle id="table-D" cx="288.5" cy="90" r="8.5"/><text x="288.5" y="91">D</text>
-          <circle id="table-O" cx="288.5" cy="110.75" r="8.5"/><text x="288.5" y="111.75">O</text>
+          <!-- Closest column: 3 tables -->
+          <circle id="table-29" cx="962.5" cy="194" r="27"/><text x="962.5" y="194">29</text>
+          <circle id="table-D" cx="962.5" cy="305" r="27"/><text x="962.5" y="305">D</text>
+          <circle id="table-O" cx="962.5" cy="416" r="27"/><text x="962.5" y="416">O</text>
 
-          <!-- Column 2: 4 tables -->
-          <circle id="table-27" cx="308.5" cy="58.875" r="8.5"/><text x="308.5" y="58.875">27</text>
-          <circle id="table-25" cx="308.5" cy="79.625" r="8.5"/><text x="308.5" y="79.625">25</text>
-          <circle id="table-23" cx="308.5" cy="100.375" r="8.5"/><text x="308.5" y="100.375">23</text>
-          <circle id="table-21" cx="308.5" cy="121.125" r="8.5"/><text x="308.5" y="121.125">21</text>
+          <!-- Second column: 4 tables -->
+          <circle id="table-27" cx="1062.5" cy="83" r="27"/><text x="1062.5" y="83">27</text>
+          <circle id="table-25" cx="1062.5" cy="194" r="27"/><text x="1062.5" y="194">25</text>
+          <circle id="table-23" cx="1062.5" cy="305" r="27"/><text x="1062.5" y="305">23</text>
+          <circle id="table-21" cx="1062.5" cy="416" r="27"/><text x="1062.5" y="416">21</text>
 
-          <!-- Column 3: 5 tables -->
-          <circle id="table-11" cx="328.5" cy="48.5" r="8.5"/><text x="328.5" y="48.5">11</text>
-          <circle id="table-13" cx="328.5" cy="69.25" r="8.5"/><text x="328.5" y="69.25">13</text>
-          <circle id="table-15" cx="328.5" cy="90" r="8.5"/><text x="328.5" y="90">15</text>
-          <circle id="table-17" cx="328.5" cy="110.75" r="8.5"/><text x="328.5" y="110.75">17</text>
-          <circle id="table-19" cx="328.5" cy="131.5" r="8.5"/><text x="328.5" y="131.5">19</text>
+          <!-- Third column: 5 tables -->
+          <circle id="table-11" cx="1162.5" cy="83" r="27"/><text x="1162.5" y="83">11</text>
+          <circle id="table-13" cx="1162.5" cy="194" r="27"/><text x="1162.5" y="194">13</text>
+          <circle id="table-15" cx="1162.5" cy="305" r="27"/><text x="1162.5" y="305">15</text>
+          <circle id="table-17" cx="1162.5" cy="416" r="27"/><text x="1162.5" y="416">17</text>
+          <circle id="table-19" cx="1162.5" cy="527" r="27"/><text x="1162.5" y="527">19</text>
 
-          <!-- Column 4: 5 tables -->
-          <circle id="table-9" cx="348.5" cy="48.5" r="8.5"/><text x="348.5" y="48.5">9</text>
-          <circle id="table-7" cx="348.5" cy="69.25" r="8.5"/><text x="348.5" y="69.25">7</text>
-          <circle id="table-5" cx="348.5" cy="90" r="8.5"/><text x="348.5" y="90">5</text>
-          <circle id="table-3" cx="348.5" cy="110.75" r="8.5"/><text x="348.5" y="110.75">3</text>
-          <circle id="table-1" cx="348.5" cy="131.5" r="8.5"/><text x="348.5" y="131.5">1</text>
+          <!-- Rightmost column: 5 tables -->
+          <circle id="table-9" cx="1262.5" cy="83" r="27"/><text x="1262.5" y="83">9</text>
+          <circle id="table-7" cx="1262.5" cy="194" r="27"/><text x="1262.5" y="194">7</text>
+          <circle id="table-5" cx="1262.5" cy="305" r="27"/><text x="1262.5" y="305">5</text>
+          <circle id="table-3" cx="1262.5" cy="416" r="27"/><text x="1262.5" y="416">3</text>
+          <circle id="table-1" cx="1262.5" cy="527" r="27"/><text x="1262.5" y="527">1</text>
         </g>
       </svg>
 
