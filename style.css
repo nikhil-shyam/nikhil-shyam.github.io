@@ -151,14 +151,6 @@ h2 {
   stroke-width: 2;
 }
 
-.table-label {
-  font-size: 18px;
-  font-weight: 400;
-  fill: #6577ad;
-  font-family: Georgia, "Times New Roman", serif;
-  pointer-events: none;
-}
-
 #guide-line {
   stroke: #6577ad;
   stroke-width: 3;
