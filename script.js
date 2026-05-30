@@ -40,7 +40,7 @@ searchInput.addEventListener("input", () => {
 
   resultDiv.innerHTML = "";
   clearHighlightedTable();
-  // clearRouteLine();
+  clearRouteLine();
 
   if (query === "") {
     displayAllTables();
@@ -59,7 +59,7 @@ searchInput.addEventListener("input", () => {
   if (tableMatch) {
     displaySingleTable(tableMatch);
     highlightTable(tableMatch.table);
-    // drawRouteToTable(tableMatch.table);
+    drawRouteToTable(tableMatch.table);
     return;
   }
 
@@ -96,7 +96,7 @@ searchInput.addEventListener("input", () => {
 
   if (matches.length === 1) {
     highlightTable(matches[0].table);
-    // drawRouteToTable(matches[0].table);
+    drawRouteToTable(matches[0].table);
   }
 });
 
